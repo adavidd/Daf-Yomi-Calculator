@@ -1,0 +1,236 @@
+{
+  "seder":[
+            {
+                "name" : "Zeraim",
+                "masechtot":
+                [
+                  {
+                    "masechet": "Berajot",
+                    "pages" : 63
+                  }
+                  
+                ]
+                    
+            },
+        
+  
+          {
+                "name" : "Moed",
+                "masechtot":
+                [
+                  {
+                    "masechet": "Shabat",
+                    "pages" : 156
+                  },
+                  {
+                    "masechet": "Eruvin",
+                    "pages" : 104
+                  },
+                  {
+                    "masechet": "Pesajim",
+                    "pages" : 120
+                  },
+                  {
+                    "masechet": "Shekalim",
+                    "pages" : 21
+                  },
+                  {
+                    "masechet": "Rosh Hashaná",
+                    "pages" : 34
+                  },
+                  {
+                    "masechet": "Yoma",
+                    "pages" : 87
+                  },
+                  {
+                    "masechet": "Sucá",
+                    "pages" : 55
+                  },
+                  {
+                    "masechet": "Beitzá",
+                    "pages" : 39
+                  },
+                  {
+                    "masechet": "Taanit",
+                    "pages" : 30
+                  },
+                  {
+                    "masechet": "Meguilá",
+                    "pages" : 31
+                  },
+                  {
+                    "masechet": "Moed Katán",
+                    "pages" : 28
+                  },
+                  {
+                    "masechet": "Jaguigá",
+                    "pages" : 26
+                  }
+                  
+               ]
+                    
+          },
+          
+          {
+                "name" : "Nashim",
+                "masechtot":
+                [
+                  {
+                    "masechet": "Yevamot",
+                    "pages" : 121
+                  },
+                  {
+                    "masechet": "Ketubot",
+                    "pages" : 111
+                  },
+                  {
+                    "masechet": "Nedarim",
+                    "pages" : 90
+                  },
+                  {
+                    "masechet": "Nazir",
+                    "pages" : 65
+                  },
+                  {
+                    "masechet": "Sotá",
+                    "pages" : 48
+                  },
+                  {
+                    "masechet": "Guitín",
+                    "pages" : 89
+                  },
+                  {
+                    "masechet": "Kidushín",
+                    "pages" : 81
+                  }
+                  
+               ]
+                    
+          },
+          
+          {
+                "name" : "Nezikin",
+                "masechtot":
+                [
+                  {
+                    "masechet": "Bavá Kamá",
+                    "pages" : 118
+                  },
+                  {
+                    "masechet": "Bavá Metziá",
+                    "pages" : 118
+                  },
+                  {
+                    "masechet": "Bavá Batrá",
+                    "pages" : 175
+                  },
+                  {
+                    "masechet": "Sanhedrín",
+                    "pages" : 112
+                  },
+                  {
+                    "masechet": "Makot",
+                    "pages" : 23
+                  },
+                  {
+                    "masechet": "Shevuot",
+                    "pages" : 48
+                  },
+                  {
+                    "masechet": "Avoda Zarah",
+                    "pages" : 75
+                  },
+                  {
+                    "masechet": "Horayot",
+                    "pages" : 13
+                  }
+                  
+               ]
+                    
+          },
+          
+          {
+                "name" : "Kodashim",
+                "masechtot":
+                [
+                  {
+                    "masechet": "Zevajím",
+                    "pages" : 119
+                  },
+                  {
+                    "masechet": "Menajot",
+                    "pages" : 109
+                  },
+                  {
+                    "masechet": "Julín",
+                    "pages" : 141
+                  },
+                  {
+                    "masechet": "Bejorot",
+                    "pages" : 60
+                  },
+                  {
+                    "masechet": "Erejin",
+                    "pages" : 33
+                  },
+                  {
+                    "masechet": "Temurá",
+                    "pages" : 33
+                  },
+                  {
+                    "masechet": "Keritot",
+                    "pages" : 27
+                  },
+                  {
+                    "masechet": "Meilá",
+                    "pages" : 20
+                  },
+                  {
+                    "masechet": "Kinim",
+                    "pages" : 3
+                  },
+                  {
+                    "masechet": "Tamid",
+                    "pages" : 9
+                  },
+                  {
+                    "masechet": "Midot",
+                    "pages" : 4
+                  }
+                  
+               ]
+                    
+          },
+          
+          {
+                "name" : "Taharot",
+                "masechtot":
+                [
+                  {
+                    "masechet": "Nidá",
+                    "pages" : 72
+                  }
+                  
+                ]
+                    
+            }
+          
+          
+          
+      
+    ],
+    
+    "dafYomiDetails":
+    {
+      "dateStart": "10/9/2018",
+       "dafStart": 2230,
+      "allPages": 2711,
+      "Kinnim":20,
+      "Tamid":23,
+      "Midot":32
+      
+      
+    }
+    
+    
+}
