@@ -1,4 +1,4 @@
-# Daf-Yomi-Calculator
+# Daf-Yomi-Calculator. Android
 # get the Daf Yomi by day
 
  Daf-Yomi-Calculator is a Library that you can get the current Daf Yomi or the Daf yomi by any day;
