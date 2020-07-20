@@ -22,7 +22,7 @@ Step 2. Add the dependency
 
  ```
 dependencies {
-	implementation 'com.github.adavidd:Daf-Yomi-Calculator:Tag' // current Tag: v1.0
+	implementation 'com.github.adavidd:Daf-Yomi-Calculator:Tag' // current Tag: V2.0
 }
 ```
  
