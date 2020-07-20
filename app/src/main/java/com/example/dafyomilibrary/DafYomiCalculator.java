@@ -12,25 +12,29 @@ import java.util.Locale;
 import java.util.Objects;
 
 
-
 public class DafYomiCalculator {
 
 
-    private static final String KINIM = "Kinim";
-    private static final String TAMID = "Tamid";
-    private static final String MIDOT = "Midot";
+    private static String KINIM = "Kinim";
+    private static String TAMID = "Tamid";
+    private static String MIDOT = "Midot";
 
+    private String English = "En";
+    private String Hebrew = "He";
+    private String Spanish = "Es";
 
 
     /**
      * get today daf yomi
-     * @param context Context
+     *
+     * @param context  Context
+     * @param language String  (En = English, He = Hebrew, Es = Spanish)
      * @return String
      */
-    public DafYomiDetailes getTodayDafYomi(Context context) {
+    public DafYomiDetailes getTodayDafYomi(Context context, String language) {
 
         long datesFromDateStart = getDateDifference();
-        DafHyomi dafHyomi = getAllDafYomi(context);
+        DafHyomi dafHyomi = getAllDafYomi(context, language);
         long toadyDafYomiInt = Objects.requireNonNull(dafHyomi).getDafYomiDetails().getDafStart() + datesFromDateStart;
         int getTheWholeNUmber = (int) toadyDafYomiInt / dafHyomi.getDafYomiDetails().getAllPages();
         long toadyDafYomiFronNewSederInt = toadyDafYomiInt - (getTheWholeNUmber * dafHyomi.getDafYomiDetails().getAllPages());
@@ -40,10 +44,9 @@ public class DafYomiCalculator {
     }
 
 
-
-
     /**
      * get the dates difference between today to the daf yomi startDate
+     *
      * @return long
      */
     private long getDateDifference() {
@@ -68,13 +71,15 @@ public class DafYomiCalculator {
 
     /**
      * get today daf yomi
-     * @param context Context
+     *
+     * @param context  Context
+     * @param language String
      * @return String
      */
-    public DafYomiDetailes getDafYomiByDay(Context context, int year, int month, int day) {
+    public DafYomiDetailes getDafYomiByDay(Context context, int year, int month, int day, String language) {
 
         long datesFromDateStart = getDateDifference(year, month, day);
-        DafHyomi dafHyomi = getAllDafYomi(context);
+        DafHyomi dafHyomi = getAllDafYomi(context, language);
         long toadyDafYomiInt = Objects.requireNonNull(dafHyomi).getDafYomiDetails().getDafStart() + datesFromDateStart;
         int getTheWholeNUmber = (int) toadyDafYomiInt / dafHyomi.getDafYomiDetails().getAllPages();
         long toadyDafYomiFronNewSederInt = toadyDafYomiInt - (getTheWholeNUmber * dafHyomi.getDafYomiDetails().getAllPages());
@@ -84,10 +89,9 @@ public class DafYomiCalculator {
     }
 
 
-
-
     /**
      * get the dates difference between today to the daf yomi startDate
+     *
      * @return long
      */
     private long getDateDifference(int year, int month, int day) {
@@ -110,17 +114,40 @@ public class DafYomiCalculator {
     }
 
 
-
     /**
      * get dafYomi object from locale file in asset
-     * @param context Context
+     *
+     * @param context  Context
+     * @param language
      * @return dafYomi object
      */
-    private DafHyomi getAllDafYomi(Context context) {
+    private DafHyomi getAllDafYomi(Context context, String language) {
 
         try {
+
+            KINIM = "Kinim";
+            TAMID = "Tamid";
+            MIDOT = "Midot";
+
             Gson gson = new Gson();
-            String txt = convertStreamToString(Objects.requireNonNull(context).getAssets().open("daf_yomi_json.txt"));
+            String txt;
+            if (language.equals(Spanish)) {
+
+                txt = convertStreamToString(Objects.requireNonNull(context).getAssets().open("daf_yomi_json.txt"));
+
+            } else if (language.equals(Hebrew)) {
+
+                txt = convertStreamToString(Objects.requireNonNull(context).getAssets().open("daf_yomi_json_He.txt"));
+
+                KINIM = "קינים";
+                TAMID = "תמיד";
+                MIDOT = "מידות";
+
+            } else {
+                txt = convertStreamToString(Objects.requireNonNull(context).getAssets().open("daf_yomi_jason_EN.txt"));
+
+            }
+
             return gson.fromJson(txt, DafHyomi.class);
 
         } catch (Exception e) {
@@ -131,10 +158,9 @@ public class DafYomiCalculator {
     }
 
 
-
-
     /**
      * read the file and convert the text to string
+     *
      * @param is file location
      * @return String
      * @throws Exception e
@@ -151,11 +177,10 @@ public class DafYomiCalculator {
     }
 
 
-
-
     /**
      * Iteration on the array of the DafYomi object and calculator the cornet daf yomi
-     * @param dafHyomi DafHyomi object
+     *
+     * @param dafHyomi                    DafHyomi object
      * @param toadyDafYomiFromNewSederInt long
      * @return String
      */

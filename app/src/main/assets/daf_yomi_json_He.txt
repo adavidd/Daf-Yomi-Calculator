@@ -1,11 +1,11 @@
 {
   "seder":[
             {
-                "name" : "Zeraim",
+                "name" : "זרעים",
                 "masechtot":
                 [
                   {
-                    "masechet": "Berajot",
+                    "masechet": "ברכות",
                     "pages" : 63
                   }
                   
@@ -15,55 +15,55 @@
         
   
           {
-                "name" : "Moed",
+                "name" : "מועד",
                 "masechtot":
                 [
                   {
-                    "masechet": "Shabat",
+                    "masechet": "שבת",
                     "pages" : 156
                   },
                   {
-                    "masechet": "Eruvin",
+                    "masechet": "עירובין",
                     "pages" : 104
                   },
                   {
-                    "masechet": "Pesajim",
+                    "masechet": "פסחים",
                     "pages" : 120
                   },
                   {
-                    "masechet": "Shekalim",
+                    "masechet": "שקלים",
                     "pages" : 21
                   },
                   {
-                    "masechet": "Rosh Hashaná",
+                    "masechet": "ראש השנה",
                     "pages" : 34
                   },
                   {
-                    "masechet": "Yoma",
+                    "masechet": "יומא",
                     "pages" : 87
                   },
                   {
-                    "masechet": "Sucá",
+                    "masechet": "סוכה",
                     "pages" : 55
                   },
                   {
-                    "masechet": "Beitzá",
+                    "masechet": "ביצה",
                     "pages" : 39
                   },
                   {
-                    "masechet": "Taanit",
+                    "masechet": "תענית",
                     "pages" : 30
                   },
                   {
-                    "masechet": "Meguilá",
+                    "masechet": "מגילה",
                     "pages" : 31
                   },
                   {
-                    "masechet": "Moed Katán",
+                    "masechet": "מועד קטן",
                     "pages" : 28
                   },
                   {
-                    "masechet": "Jaguigá",
+                    "masechet": "חגיגה",
                     "pages" : 26
                   }
                   
@@ -72,35 +72,35 @@
           },
           
           {
-                "name" : "Nashim",
+                "name" : "נשים",
                 "masechtot":
                 [
                   {
-                    "masechet": "Yevamot",
+                    "masechet": "יבמות",
                     "pages" : 121
                   },
                   {
-                    "masechet": "Ketubot",
+                    "masechet": "כתובות",
                     "pages" : 111
                   },
                   {
-                    "masechet": "Nedarim",
+                    "masechet": "נדרים",
                     "pages" : 90
                   },
                   {
-                    "masechet": "Nazir",
+                    "masechet": "נזיר",
                     "pages" : 65
                   },
                   {
-                    "masechet": "Sotá",
+                    "masechet": "סוטה",
                     "pages" : 48
                   },
                   {
-                    "masechet": "Guitín",
+                    "masechet": "גיטין",
                     "pages" : 89
                   },
                   {
-                    "masechet": "Kidushín",
+                    "masechet": "קידושין",
                     "pages" : 81
                   }
                   
@@ -109,39 +109,39 @@
           },
           
           {
-                "name" : "Nezikin",
+                "name" : "נזיקין",
                 "masechtot":
                 [
                   {
-                    "masechet": "Bavá Kamá",
+                    "masechet": "בבא קמא",
                     "pages" : 118
                   },
                   {
-                    "masechet": "Bavá Metziá",
+                    "masechet": "בבא מציעא",
                     "pages" : 118
                   },
                   {
-                    "masechet": "Bavá Batrá",
+                    "masechet": "בבא בתרא",
                     "pages" : 175
                   },
                   {
-                    "masechet": "Sanhedrín",
+                    "masechet": "סנהדרין",
                     "pages" : 112
                   },
                   {
-                    "masechet": "Makot",
+                    "masechet": "מכות",
                     "pages" : 23
                   },
                   {
-                    "masechet": "Shevuot",
+                    "masechet": "שבועות",
                     "pages" : 48
                   },
                   {
-                    "masechet": "Avoda Zarah",
+                    "masechet": "עבודה זרה",
                     "pages" : 75
                   },
                   {
-                    "masechet": "Horayot",
+                    "masechet": "הוריות",
                     "pages" : 13
                   }
                   
@@ -150,51 +150,51 @@
           },
           
           {
-                "name" : "Kodashim",
+                "name" : "קודשים",
                 "masechtot":
                 [
                   {
-                    "masechet": "Zevajím",
+                    "masechet": "זבחים",
                     "pages" : 119
                   },
                   {
-                    "masechet": "Menajot",
+                    "masechet": "מנחות",
                     "pages" : 109
                   },
                   {
-                    "masechet": "Julín",
+                    "masechet": "חולין",
                     "pages" : 141
                   },
                   {
-                    "masechet": "Bejorot",
+                    "masechet": "ברכות",
                     "pages" : 60
                   },
                   {
-                    "masechet": "Erejin",
+                    "masechet": "ערכין",
                     "pages" : 33
                   },
                   {
-                    "masechet": "Temurá",
+                    "masechet": "תמורה",
                     "pages" : 33
                   },
                   {
-                    "masechet": "Keritot",
+                    "masechet": "כריתות",
                     "pages" : 27
                   },
                   {
-                    "masechet": "Meilá",
+                    "masechet": "מעילה",
                     "pages" : 20
                   },
                   {
-                    "masechet": "Kinim",
+                    "masechet": "קינים",
                     "pages" : 3
                   },
                   {
-                    "masechet": "Tamid",
+                    "masechet": "תמיד",
                     "pages" : 9
                   },
                   {
-                    "masechet": "Midot",
+                    "masechet": "מידות",
                     "pages" : 4
                   }
                   
@@ -203,11 +203,11 @@
           },
           
           {
-                "name" : "Taharot",
+                "name" : "טהרות",
                 "masechtot":
                 [
                   {
-                    "masechet": "Nidá",
+                    "masechet": "נידה",
                     "pages" : 72
                   }
                   
@@ -225,7 +225,7 @@
       "dateStart": "10/9/2018",
        "dafStart": 2230,
       "allPages": 2711,
-      "Kinim":20,
+      "kinim":23,
       "Tamid":23,
       "Midot":32
       

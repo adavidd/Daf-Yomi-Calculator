@@ -12,9 +12,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         DafYomiCalculator dafYomiCalculator = new DafYomiCalculator();
-        DafYomiDetailes todayDafYomiDetailes = dafYomiCalculator.getTodayDafYomi(this);
+        DafYomiDetailes todayDafYomiDetailes = dafYomiCalculator.getTodayDafYomi(this, "En");
 
-        DafYomiDetailes dafYomiDetailes = dafYomiCalculator.getDafYomiByDay(this, 2020, 5, 25);
+        DafYomiDetailes dafYomiDetailes = dafYomiCalculator.getDafYomiByDay(this, 2020, 5, 25, "En");
 
 
 

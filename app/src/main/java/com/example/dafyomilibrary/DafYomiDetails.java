@@ -7,7 +7,7 @@ public class DafYomiDetails{
 
 	private int dafStart;
 
-	private int kinnim;
+	private int kinim;
 
 	private int Midot;
 
@@ -41,11 +41,11 @@ public class DafYomiDetails{
 	}
 
 	public void setKinnim(int kinnim){
-		this.kinnim = kinnim;
+		this.kinim = kinnim;
 	}
 
 	public int getKinnim(){
-		return kinnim;
+		return kinim;
 	}
 
 	public void setDateStart(String dateStart){

@@ -1,11 +1,11 @@
 {
   "seder":[
             {
-                "name" : "Zeraim",
+                "name" : "Zraim",
                 "masechtot":
                 [
                   {
-                    "masechet": "Berajot",
+                    "masechet": "Berachot",
                     "pages" : 63
                   }
                   
@@ -27,15 +27,15 @@
                     "pages" : 104
                   },
                   {
-                    "masechet": "Pesajim",
+                    "masechet": "Psachim",
                     "pages" : 120
                   },
                   {
-                    "masechet": "Shekalim",
+                    "masechet": "Shkalim",
                     "pages" : 21
                   },
                   {
-                    "masechet": "Rosh Hashaná",
+                    "masechet": "Rosh Hashana",
                     "pages" : 34
                   },
                   {
@@ -43,11 +43,11 @@
                     "pages" : 87
                   },
                   {
-                    "masechet": "Sucá",
+                    "masechet": "Suca",
                     "pages" : 55
                   },
                   {
-                    "masechet": "Beitzá",
+                    "masechet": "Beitza",
                     "pages" : 39
                   },
                   {
@@ -55,15 +55,15 @@
                     "pages" : 30
                   },
                   {
-                    "masechet": "Meguilá",
+                    "masechet": "Megila",
                     "pages" : 31
                   },
                   {
-                    "masechet": "Moed Katán",
+                    "masechet": "Moed Katan",
                     "pages" : 28
                   },
                   {
-                    "masechet": "Jaguigá",
+                    "masechet": "Chagiga",
                     "pages" : 26
                   }
                   
@@ -80,7 +80,7 @@
                     "pages" : 121
                   },
                   {
-                    "masechet": "Ketubot",
+                    "masechet": "Ketuvot",
                     "pages" : 111
                   },
                   {
@@ -92,15 +92,15 @@
                     "pages" : 65
                   },
                   {
-                    "masechet": "Sotá",
+                    "masechet": "Sota",
                     "pages" : 48
                   },
                   {
-                    "masechet": "Guitín",
+                    "masechet": "Gitin",
                     "pages" : 89
                   },
                   {
-                    "masechet": "Kidushín",
+                    "masechet": "Kidushin",
                     "pages" : 81
                   }
                   
@@ -113,19 +113,19 @@
                 "masechtot":
                 [
                   {
-                    "masechet": "Bavá Kamá",
+                    "masechet": "Baba Kama",
                     "pages" : 118
                   },
                   {
-                    "masechet": "Bavá Metziá",
+                    "masechet": "Baba Metzia",
                     "pages" : 118
                   },
                   {
-                    "masechet": "Bavá Batrá",
+                    "masechet": "Baba Batra",
                     "pages" : 175
                   },
                   {
-                    "masechet": "Sanhedrín",
+                    "masechet": "Sanhedrin",
                     "pages" : 112
                   },
                   {
@@ -133,7 +133,7 @@
                     "pages" : 23
                   },
                   {
-                    "masechet": "Shevuot",
+                    "masechet": "Shvuot",
                     "pages" : 48
                   },
                   {
@@ -150,39 +150,39 @@
           },
           
           {
-                "name" : "Kodashim",
+                "name" : "Kodshim",
                 "masechtot":
                 [
                   {
-                    "masechet": "Zevajím",
+                    "masechet": "Zevachim",
                     "pages" : 119
                   },
                   {
-                    "masechet": "Menajot",
+                    "masechet": "Menachot",
                     "pages" : 109
                   },
                   {
-                    "masechet": "Julín",
+                    "masechet": "Chulin",
                     "pages" : 141
                   },
                   {
-                    "masechet": "Bejorot",
+                    "masechet": "Bechorot",
                     "pages" : 60
                   },
                   {
-                    "masechet": "Erejin",
+                    "masechet": "Erchin",
                     "pages" : 33
                   },
                   {
-                    "masechet": "Temurá",
+                    "masechet": "Tmura",
                     "pages" : 33
                   },
                   {
-                    "masechet": "Keritot",
+                    "masechet": "Kritot",
                     "pages" : 27
                   },
                   {
-                    "masechet": "Meilá",
+                    "masechet": "Meila",
                     "pages" : 20
                   },
                   {
@@ -207,7 +207,7 @@
                 "masechtot":
                 [
                   {
-                    "masechet": "Nidá",
+                    "masechet": "Nida",
                     "pages" : 72
                   }
                   
