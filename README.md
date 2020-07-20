@@ -29,7 +29,7 @@ dependencies {
 
 
 
-create daf yomi instance:
+step 3. create daf yomi instance:
 
 ```
 DafYomiCalculator dafYomiCalculator = new DafYomiCalculator();
@@ -37,25 +37,26 @@ DafYomiCalculator dafYomiCalculator = new DafYomiCalculator();
 
 
 
-get by current day:
+step 4. get by current day:
 
 ```
-DafYomiDetailes todayDafYomiDetailes = dafYomiCalculator.getTodayDafYomi(this);
+DafYomiDetailes todayDafYomiDetailes = dafYomiCalculator.getTodayDafYomi(this, language); for English write "En"; for Hebrew write "He"; for Spanish write "Es";
+
 ```
 
 
 
 
-get by a given day:
+step 4. get by a given day:
 
 ```
 DafYomiCalculator dafYomiCalculator = new DafYomiCalculator();
-DafYomiDetailes anyDayDafYomiDetailes = dafYomiCalculator.getDafYomiByDay(this, 2020, 5, 25); // year, month, day
+DafYomiDetailes anyDayDafYomiDetailes = dafYomiCalculator.getDafYomiByDay(this, 2020, 5, 25, language); // year, month, day.  for English write "En"; for Hebrew write "He"; for Spanish write "Es";
 ```
 
 
 
-get daf yomi detailes:
+step 5. get daf yomi detailes:
 
 ```
 dafYomiDetailes.getMasechetName();
